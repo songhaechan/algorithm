@@ -1,15 +1,12 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º†®Äüÿÿÿÿ8ÉÌè†2J$b3478779-5677-44a0-b162-553284ffc64e
-r
-java:S3740"/Provide the parametrized type for this generic.(ãÚœ8™¥Ëè†2J$ad21450d-70f2-4381-9b18-9f166c2343a7
-w
-java:S3740"/Provide the parametrized type for this generic.(èÈæ­úÿÿÿÿ8™¥Ëè†2J$d74b7f9f-6cdb-4d4c-8031-72781a007f29
-w
-java:S3740
-"/Provide the parametrized type for this generic.(Ø¦Îèüÿÿÿÿ8™¥Ëè†2J$1ce0b13f-f8fd-4715-a1c7-0dc9b0bfcb86
-r
-java:S3740"/Provide the parametrized type for this generic.(õ–‰—8™¥Ëè†2J$386410b5-e05b-4085-b09d-0da0695446cd
-q
-java:S5413")Verify that "remove()" is used correctly.(‡óşÀùÿÿÿÿ8¥Ëè†2J$4f2e0bc7-c9fd-4b02-8c3c-5f21a460ebb3
-d
-java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8¥Ëè†2J$69ea21eb-856d-4b26-8147-d057b5dd7a66
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º†®ÄüÿÿÿÿJ$9cbcbc4b-8283-48cf-bf74-b901ef32080f
+L
+java:S3740"/Provide the parametrized type for this generic.(ãÚœ8‘×Ì†‡2
+L
+java:S3740	"/Provide the parametrized type for this generic.(Ô¹øò8‘×Ì†‡2
+L
+java:S3740"/Provide the parametrized type for this generic.(õ–‰—8‘×Ì†‡2
+>
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8”×Ì†‡2
+K
+java:S5413")Verify that "remove()" is used correctly.(‡óşÀùÿÿÿÿ8•×Ì†‡2

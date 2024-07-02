@@ -1,0 +1,11 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°‘â‡üÿÿÿÿ8Ñù³†‡2J$02f02a68-70cd-4213-8e15-8b860eecd36b
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º†®ÄüÿÿÿÿJ$6fcaa8de-9c13-46af-9b05-dc643e137a0c
+L
+java:S3740"/Provide the parametrized type for this generic.(ãÚœ8‘¼´†‡2
+Q
+java:S3740	"/Provide the parametrized type for this generic.(â§°üÿÿÿÿ8‘¼´†‡2
+L
+java:S3740"/Provide the parametrized type for this generic.(õ–‰—8‘¼´†‡2
+K
+java:S5413")Verify that "remove()" is used correctly.(‡óşÀùÿÿÿÿ8“¼´†‡2
