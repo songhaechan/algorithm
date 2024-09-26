@@ -1,17 +1,17 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º†®Äüÿÿÿÿ8„•Âˆ‡2J$350a932d-8755-42a2-a598-8211070d8a6a
-r
-java:S3740	"/Provide the parametrized type for this generic.(ãÚœ8…•Âˆ‡2J$52742eb1-bfd7-45b1-951a-7e2f53870277
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º†®Äüÿÿÿÿ8÷ÎåÓ‰2J$65ce8334-fac3-4271-91a9-50cf143c10ae
 r
 java:S3740
-"/Provide the parametrized type for this generic.(Ô¹øò8…•Âˆ‡2J$e32935ec-3fda-49d1-93d5-f84eee937373
+"/Provide the parametrized type for this generic.(ãÚœ8÷ÎåÓ‰2J$d02ea791-3d08-4880-8139-ce3b78d4fb42
 r
-java:S3740"/Provide the parametrized type for this generic.(õ–‰—8…•Âˆ‡2J$0c0fc447-3c7e-4436-bcad-1ee95ed03f8c
+java:S3740"/Provide the parametrized type for this generic.(Ô¹øò8÷ÎåÓ‰2J$422cf6d4-71fe-4ce9-9ba2-a0e54ae5c450
+r
+java:S3740"/Provide the parametrized type for this generic.(õ–‰—8÷ÎåÓ‰2J$6e803dc8-7f86-4f99-98ab-2b788275aa5a
 d
-java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8‡•Âˆ‡2J$c8d93140-47d9-4aa7-82be-f4da750593f8
-
-java:S1854"9Remove this useless assignment to local variable "board".(É½ææıÿÿÿÿ8‡•Âˆ‡2J$21c6999b-b351-47b7-baf8-c7fe2accadac
-r
-java:S1481"*Remove this unused "board" local variable.(É½ææıÿÿÿÿ8ˆ•Âˆ‡2J$c99de9ea-7316-4bf8-8827-83f7e43c73b9
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8úÎåÓ‰2J$310aef0d-d2a2-4d4a-8544-680886f41745
 q
-java:S5413")Verify that "remove()" is used correctly.(‡óşÀùÿÿÿÿ8ˆ•Âˆ‡2J$93936ba4-8635-459d-9e24-baa08714991d
+java:S5413")Verify that "remove()" is used correctly.(‡óşÀùÿÿÿÿ8ûÎåÓ‰2J$ca9939e0-f6c8-4586-9475-8f261b8db454
+u
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8üÎåÓ‰2J$7edee78f-8fb7-48cc-99ad-fbe54553aabd
+z
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8üÎåÓ‰2J$939cf900-6447-47b8-8299-a8866c0bac3e

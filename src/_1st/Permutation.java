@@ -2,6 +2,7 @@ package _1st;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 class Permutation {
@@ -16,9 +17,6 @@ class Permutation {
             result.add(new ArrayList(tmp));
             return;
         }
-        char[][] board = new char[3][3];
-        String cat = "ejfojaf";
-        Arrays.asList(cat);
 
         for(int i=0; i<nums.length; i++){
             if(!tmp.contains(nums[i])){
