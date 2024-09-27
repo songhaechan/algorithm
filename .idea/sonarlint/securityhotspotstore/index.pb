@@ -20,8 +20,11 @@ M
 B
 src/_1st/test.java,f/f/ffd5de304c4ebd835583ca7cb444b28b9a218491
 K
-src/sort/InsertionSort.java,d/5/d5cc399d32304f5b96d7ad48dfe5a26ac3f97592
-K
 src/sort/SelectionSort.java,5/0/5009296a7145c0c4a4443502f4807d945ac6be0b
 H
 src/sort/BubbleSort.java,c/4/c4ca745fbe1b508a29753bfe745877aa88157193
+K
+src/sort/InsertionSort.java,d/5/d5cc399d32304f5b96d7ad48dfe5a26ac3f97592
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
