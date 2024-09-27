@@ -1,13 +1,13 @@
 
-”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ8òé¡ß”2J$3a6b18c3-fff0-498a-ae9d-2177e9ce6770
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º†®Äüÿÿÿÿ8òé¡ß”2J$7bd1d234-1a47-4bea-899d-1d0e09912666
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ8òé¡ß”2J$c29fa1ac-8a72-4f07-a088-330af371586f
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º†®Äüÿÿÿÿ8òé¡ß”2J$7cc23970-d095-4398-b81e-e3a8d7f32f56
 |
-java:S1854"9Remove this useless assignment to local variable "list2".(ÊÇ…ä8ôé¡ß”2J$a9eee827-1d36-4c4f-9dd7-cbdd36ca0b33
+java:S1854"9Remove this useless assignment to local variable "list2".(ÊÇ…ä8ôé¡ß”2J$9a4f4771-7f10-4faf-b5d0-da8cfe9e52f8
 |
-java:S1854"9Remove this useless assignment to local variable "list1".(Ø‘‹¨8ôé¡ß”2J$46c362cf-c31d-45b6-9683-42d55eb5993b
+java:S1854"9Remove this useless assignment to local variable "list1".(Ø‘‹¨8ôé¡ß”2J$c298bbf1-7fc5-417d-8dee-345a41d18ebb
 m
-java:S1481"*Remove this unused "list1" local variable.(Ø‘‹¨8ôé¡ß”2J$c4af16ca-30ab-41c0-bd44-d9c66ca479b9
+java:S1481"*Remove this unused "list1" local variable.(Ø‘‹¨8ôé¡ß”2J$3dd1987a-fe54-46c9-80cb-5cfd3751dd9f
 m
-java:S1481"*Remove this unused "list2" local variable.(ÊÇ…ä8õé¡ß”2J$cddd250a-d5f6-40ca-995f-4bf301e6acad
+java:S1481"*Remove this unused "list2" local variable.(ÊÇ…ä8õé¡ß”2J$dcd70aed-680e-45c8-84ab-722ebc2c8a9f
 m	java:S106
-"+Replace this use of System.out by a logger.(²Ú8õé¡ß”2J$27eb900f-aa91-4371-b6f0-219c334c0069
+"+Replace this use of System.out by a logger.(²Ú8õé¡ß”2J$869845e4-65ca-488b-84be-139c4bd967a1
