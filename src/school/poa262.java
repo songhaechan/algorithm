@@ -1,13 +1,15 @@
 package school;
 
 public class poa262 {
+    static boolean isMatched = false;
     public static void main(String[] args) {
-        String source = "ajweofjaoefwjfojpgafjwoeifj";
-        System.out.println("source = " + source);
+        String source = "aejfoieaijpggoifjwoiefj";
+        System.out.println("source string : " + source);
         String pattern = "jpg";
-        System.out.println("pattern = " + pattern);
+        System.out.println("pattern string : " + pattern);
         int match = match(source, pattern, source.length(), pattern.length());
-        System.out.println("matched At Index = " + match);
+        System.out.println("matched At Index : " + match);
+        System.out.println("is matched? : " + isMatched);
     }
 
     public static int match(String source, String pattern, int sourceLength, int patternLength ){
@@ -21,8 +23,11 @@ public class poa262 {
                 matched = matched && patternMatch;
                 indexOfPattern++;
             }
+            if(indexOfPattern==patternLength){
+                isMatched=true;
+            }
             indexOfSource++;
         }
-        return indexOfSource;
+        return indexOfSource-1;
     }
 }
