@@ -46,3 +46,5 @@ Q
 !src/programers/SumOfTwoQueue.java,7/9/79d054710c81ff789ebcfd73d7863c02c0235ea1
 J
 src/leetcode/TrapRain.java,8/3/836d669107cf75c95abf3867c79da01dd9e50339
+K
+src/leetcode/Bipartite.java,2/d/2d433e45f6a561817501cbfb4cb988db1b9cfefd
