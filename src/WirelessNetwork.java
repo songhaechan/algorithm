@@ -37,7 +37,7 @@ public class WirelessNetwork {
 
         public int find(int x) {
             if (parent[x] != x) {
-                parent[x] = find(parent[x]); // Path compression
+                parent[x] = find(parent[x]);
             }
             return parent[x];
         }
@@ -60,8 +60,8 @@ public class WirelessNetwork {
     }
 
     public static void main(String[] args) {
-        int n = 5; // Number of points
-        double r = 10.0; // Propagation range
+        int n = 5;
+        double r = 10.0;
 
         List<Point> points = Arrays.asList(
             new Point(0, 0, 0, 0),
@@ -71,10 +71,8 @@ public class WirelessNetwork {
             new Point(4, 20, 20, 20)
         );
 
-        // Initialize Union-Find
         UnionFind uf = new UnionFind(n);
 
-        // Connect points within range r
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (points.get(i).distance(points.get(j)) <= r) {
@@ -83,7 +81,6 @@ public class WirelessNetwork {
             }
         }
 
-        // Group points by their root parent
         Map<Integer, List<Integer>> partitions = new HashMap<>();
         for (int i = 0; i < n; i++) {
             int root = uf.find(i);
@@ -91,11 +88,10 @@ public class WirelessNetwork {
             partitions.get(root).add(i);
         }
 
-        // Print results
-        System.out.println("Number of wireless networks: " + partitions.size());
+        System.out.println("네트워크 수: " + partitions.size());
         int partitionId = 1;
         for (Map.Entry<Integer, List<Integer>> entry : partitions.entrySet()) {
-            System.out.println("Network " + partitionId + ": " + entry.getValue());
+            System.out.println("네트워크 " + partitionId + ": " + entry.getValue());
             partitionId++;
         }
     }

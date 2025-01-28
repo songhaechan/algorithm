@@ -3,10 +3,13 @@ import java.util.*;
 
 public class Receiver {
     static final int PORT = 9876; // 수신 측 포트
-    static final int LOSS_SIMULATION = 3; // 특정 패킷 누락 시뮬레이션 번호
-    int timeout = 0;
+    static final int LOSS_SIMULATION = 3; // 3번패킷 3중반복
+    static final int TIMEOUT_SIMULATION = 10; // 10번 패킷 누락
+
     DatagramSocket socket;
     Set<Integer> receivedPackets = new TreeSet<>(); // 수신된 패킷 번호 관리
+    boolean duplicationFlag = false;
+    boolean timeoutFlag = false;
 
     public Receiver() throws Exception {
         socket = new DatagramSocket(PORT);
@@ -26,9 +29,17 @@ public class Receiver {
             System.out.println("Received: " + message);
 
             // 특정 패킷 누락 시뮬레이션
-            if (packetNumber == LOSS_SIMULATION && timeout == 0) {
-                timeout++;
-                System.out.println("Simulating loss for Packet " + packetNumber);
+            if (packetNumber == LOSS_SIMULATION && !duplicationFlag) {
+                duplicationFlag=true;
+                System.out.println("의도적 3중반복 ACK 발생" + packetNumber);
+                for(int i=0; i<2;i++){
+                    sendACK(3,packet.getAddress(),packet.getPort());
+                }
+            }
+
+            if(packetNumber == TIMEOUT_SIMULATION && !timeoutFlag){
+                // 10번 패킷 의도적 무시
+                timeoutFlag = true;
                 continue;
             }
 
